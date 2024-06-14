@@ -23,7 +23,7 @@ function BlogPosts() {
     <div>
       {!error && <h1>Posts</h1>}
       {error ? (
-        <div style={{ color: 'black', fontSize: '24px' }}>Data fetching failed...</div>
+        <div style={{ color: 'black', fontSize: '64px' }}>Data fetching failed...</div>
       ) : (
         posts.map((post) => (
           <div key={post.id}>
